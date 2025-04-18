@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <link href="../../../css/car.css" rel="stylesheet">
+    <link href="../../../css/iconcar.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    <a href="../mercedesamg.html" class="breadcrumb-back">
+        <span class="arrow-left"></span>
+        Mercedes-Benz AMG/ 63 AMG
+      </a>
+    
+        <div class="sub-header">
+            <a href="tel:0387857338" class="hotline">Hotline: 0387857338</a>
+            <button class="btn-blue" onclick="openModal()">BÁO GIÁ LĂN BÁNH</button>
+        </div>
+    
+
+    <div class="container">
+        <div class="car-preview">
+            <img id="mainCarImage" src="image/amg/g63/1.png" alt="Mercedes G-A35" class="main-image" />
+            <div class="thumbnails">
+                <img src="image/amg/g63/1.png" Thumbnail 1" class="active" onclick="changeImage(this, 'image/amg/g63/1.png')">
+                <img src="image/amg/g63/2.png" alt="Thumbnail 2" onclick="changeImage(this, 'image/amg/g63/2.png')">
+                <img src="image/amg/g63/3.png" Thumbnail 3" onclick="changeImage(this, 'image/amg/g63/3.png')">
+                <img src="image/amg/g63/4.png" alt="Thumbnail 4" onclick="changeImage(this, 'image/amg/g63/3.png')">
+            </div>
+        </div>
+        <div class="details">
+            <h1>Mercedes-AMG G 63</h1>
+            <div class="price">11.750.000.000₫</div>
+            <div class="price-note">Bảng giá xe Mercedes-AMG G 63</div>
+            <div style="margin-bottom: 10px;">Giá: <span style="color: #00aeea;">11.750.000.000đ</span></div>
+            <div class="promo">
+                – Khuyến mãi & ưu đãi<br>
+                Giảm giá tiền mặt 350 triệu<br>
+                Tặng bảo hiểm thân xe (MBI)<br>
+                Tặng phụ kiện cao cấp chính hãng nhập khẩu<br>
+                Hộp quà chính hãng từ Mercedes-Benz<br>
+                Tặng bảo hành 3 năm không hạn số km<br>
+                Tặng 3 năm cứu hộ Star Assistant 24h bảo hiểm lên đến 400 triệu<br>
+                Tặng lễ giao xe đặc biệt tại showroom<br>
+                <i>* Quý khách vui lòng liên hệ hotline tư vấn, nhận thông tin khuyến mãi và ưu đãi.</i>
+            </div>
+            <div class="buttons">
+                <a class="button" href="javascript:void(0)" onclick="openModal()">BÁO GIÁ LĂN BÁNH</a>
+                <a class="button phone" href="https://zalo.me/0399697281">📞 0399697281</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="priceModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">×</span>
+            <div class="modal-header">
+                <img src="image/amg/a45/banner.png" alt="Mercedes Interior">
+            </div>
+            <h2>Báo giá lăn bánh & Lái thử xe</h2>
+            <p>Nhận báo giá lăn bánh và lái thử xe</p>
+            <div class="contact-form">
+                <h1>LIÊN HỆ CHÚNG TÔI</h1>
+
+                <form class="mb-3" action="https://getform.io/f/adrnlpoa" method="POST">
+                    <input type="text" name="name" required class="form-control" placeholder="Nhập Họ và tên" id="firstname">
+                    <input type="text" class="form-control" placeholder="Nhập emai" name="email" id="email">
+                    <textarea class="form-control " placeholder="Nhập tin nhắn" name="message" id="feedback"></textarea>
+                    <input class="button" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="social-icons text-center mt-4">
+        <a href="https://www.facebook.com/profile.php?id=100087528397422" target="_blank" class="social-icon">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://zalo.me/0399697281" target="_blank" class="social-icon">
+            <i class="fab fa-whatsapp"></i> Zalo
+        </a>
+
+    </div>
+    <hr class="custom-line">
+
+    <h2>
+        <strong>Mercedes-Benz G-Class</strong>
+    </h2>
+
+    <p>
+
+    </p>
+    <div class="text-center">
+        <img src="image/amg/g63/g63-5.png" class="img-fluid" alt="Mercedes-Benz G63-Class">
+
+    </div>
+
+    <h2>
+        <strong>Giới thiệu chung</strong>
+    </h2>
+    <p>
+        Với những người yêu thích G-Class, vẻ cổ điển chính là điểm nổi bật của dòng xe này. Tiền thân là dòng xe quân sự, đến năm 1979, bản dân dụng đầu tiên của G-Class mới chính thức xuất hiện. Bên cạnh dựa trên bản tiền nhiệm, hãng đã cải tiến cầu trước, cầu sau G-Class trở nên nối liền dạng cứng và trang bị hệ khung dạng body-on-frame cho xe.
+    </p>
+    <div class="text-center">
+        <img src="image/amg/g63/g63-6.png" alt="" class="img-fluid">
+        <h2> </h2>
+        <p> Nhờ các cải tiến không ngừng trong suốt thời gian qua, G-Class đã trở thành một trong những dòng xe vượt địa hình có doanh số hàng đầu trong phân khúc. Trong đó, những phiên bản hiệu suất cao AMG đóng một phần không nhỏ vào sự thành công của dòng SUV địa hình này..</p>
+        <img src="image/amg/g63/7.png" alt="" class="img-fluid">
+        <p>Trong khuôn khổ triển lãm Geneva Motor Show được tổ chức vào ngày 06/03/2018, hãng đã chính thức ra mắt bản hiệu suất cao của thế hệ G-Class mới: Mercedes-AMG G 63. So với thế hệ cũ, Mercedes-AMG G 63 đã được cải tiến khá nhiều ở thiết kế, an toàn cũng như khả năng vận hành. Theo ngài Dietmar Exler, CEO Mercedes-Benz tại Mỹ, phiên bản này hứa hẹn sẽ mang đến cho dòng xe này sự tăng trưởng doanh số mạnh mẽ trong thời gian sắp tới đây.</p>
+        <img src="image/amg/g63/p.png" alt="" class="img-fluid">
+
+    </div>
+
+    <h2>
+        Ngoại Thất
+    </h2>
+    <p>
+        Mercedes-AMG G 63 mang đậm sự mạnh mẽ vốn có của G-Class. Sở hữu các thông số Dài x Rộng x Cao lần lượt là 4763 x 1855 x 1938 (mm), phiên bản hiệu suất cao này có vẻ ngoài vuông vức, hầm số. Nhìn từ phía ngang, ta dễ dàng nhìn thấy dải bảo vệ cơ bắp với màu đen cuốn hút. Ngoài ra, điểm thu hút của Mercedes-AMG G 63 còn nằm ở mâm xe cỡ lớn 22 inch 7 cánh kép bằng hợp kim mạnh mẽ
+    </p>
+    <div class="text-center">
+        <img src="image/amg/g63/g63-8.png" class="img-fluid" alt="">
+
+    </div>
+    <p>
+        Mặt trước Mercedes-AMG G 63 gây ấn tượng với người dùng bởi lưới tản nhiệt lớn hơn cùng các nan dọc Panamericana độc đáo. Phần logo “ngôi sao 3 cánh” vẫn được đặt chính giữa lưới tản nhiệt tạo điểm nhấn cho phần đầu xe. Đèn pha LED toàn phần (full-led) dạng bo tròn không chỉ kết hợp hài hòa với tổng thể xe mà còn giúp người lái di chuyển an toàn hơn trong điều kiện thiếu sáng.
+    </p>
+    <div class="text-center">
+        <img src="image/amg/g63/9.png" class="img-fluid" alt="">
+
+    </div>
+    <p>
+        Không chỉ phía trước, đằng sau xe cũng có sự thay đổi. Trong đó, cụm đèn hậu được thiết kế lại, cản sau của xe cũng trông vạm vỡ hơn. Còn lại, Mercedes-AMG G 63 vẫn giữ nguyên bộ phận để bánh xe dự phòng ở ngay cửa sau với chất liệu bằng thép không gỉ.
+    </p>
+    <div class="text-center">
+        <img src="image/amg/g63/10.png" class="img-fluid" alt="">
+
+    </div>
+    <p>
+        Nhờ bodykit đậm chất AMG, ngoại thất của Mercedes-AMG G 63 đã toát lên vẻ cuốn hút của một mẫu xe vượt địa hình hàng đầu. Song song đó, nếu muốn phiên bản này tăng thêm vẻ sang trọng, tinh tế nhưng vẫn giữ nguyên cá tính vốn có, khách hàng cũng có thể lựa chọn thêm gói trang bị Night Package.
+    </p>
+    <div class="text-center">
+
+        <h2 class="mt-2">Nội thất  </h2>
+    </div>
+
+
+    <p class="text-center">
+        Khoang nội thất của Mercedes-AMG G 63 được đánh giá là hiện đại và rộng rãi hơn. Theo đó, không chỉ khoảng để chân sau rộng thêm 150mm mà bề ngang của xe cũng rộng thêm 68mm. Đồng thời, Mercedes-AMG G 63 cũng mang đến người dùng sự thoải mái bởi chất liệu da cao cấp cùng các tùy chọn màu nội thất thời trang.
+
+        <div class="text-center">
+            <img src="image/amg/g63/11.png" class="img-fluid" alt="">
+
+            <p>Khu vực cụm điều khiển của Mercedes-AMG G 63 cũng được thiết kế lại khiến các thao tác được thực hiện nhanh hơn. Vô lăng phong cách thể thao AMG Performance bọc da Nappa giúp người dùng cầm lái chắc và thoải mái hơn. Các chi tiết mạ chrome cũng góp phần làm cho nội thất xe thêm sang trọng, hiện đại. Đặc biệt, kích thước màn hình trung tâm của phiên bản này tăng lên đến 12,3 inch..</p>
+        </div>
+
+        <div class="text-center">
+            <img src="image/amg/g63/12.png" class="img-fluid" alt="">
+            <p></p>
+        </div>
+        <h2><strong> Động cơ</strong></h2>
+    <p>
+
+    </p>
+    <p>
+        Phía bên dưới nắp ca-pô chính là khối động cơ mạnh mẽ V8 4.0L tăng áp kép, với cặp turbo twin-scroll ở giữa góc chữ V của xi-lanh, từ đó sinh ra công suất cực đại đạt 430 kW [577 hp] tại 6000 vòng/phút và mô-men xoắn cực đại 850 Nm tại 2500 – 3500 vòng/phút. Với bản tiêu chuẩn sử dụng hộp số AMG SPEEDSHIFT TCT 9G cùng dẫn động 4 bánh toàn thời gian 4MATIC, Mercedes-AMG G 63 có khả năng tăng tốc từ 0 – 100km/h chỉ trong vòng 4,5 giây, vận tốc tối đa đạt 220km/h. Tuy nhiên nếu dùng thêm gói tùy chọn AMG Driver’s Package, vận tốc tối đa có thể tăng lên thành 240 km/h.
+
+
+    </p>
+    <div class="text-center">
+        <img src="image/amg/g63/13.png" class="img-fluid" alt="">
+
+    </div>
+    <p>
+        Nhờ hệ thống treo độc lập phía trước và hệ thống treo liên kết 5 điểm phía sau, Mercedes-AMG G 63 bản mới được đánh giá là có khả năng off-road tốt hơn so với phiên bản trước đó. Bên cạnh đó, người lái cũng còn có thể sử dụng chức năng DYNAMIC SELECT ở cụm điều khiển để tùy chọn chế độ lái Slippery, Comfort, Sport, Sport+ hoặc tự thiết lập chế độ lái Individual.
+    </p>
+
+    <h2><strong>An toàn và Tiện nghi</strong></h2>
+    <h2><strong>An toàn </strong></h2>
+    <p>
+
+    </p>
+    <div class="text-center">
+        <img src="image/amg/g63/14.png" class="img-fluid" alt="">
+
+    </div>
+    <p>
+        An toàn là yếu tố luôn được Mercedes-Benz quan tâm nhiều nhất ở các sản phẩm. Với bản hiệu suất cao của dòng G-Class này, hãng cũng trang bị cho xe hàng loạt các công nghệ đảm bảo an toàn, hỗ trợ người lái tự tin vượt qua những địa hình khó. Những trang bị nổi bật bao gồm: ESP® Curve Dynamic Assist ngăn chặn tình trạng thiếu lái khi vào cua ở tốc độ cao; Túi khí được trang bị ở những vị trí trọng yếu; Chống bó cứng phanh ABS; hệ thống hỗ trợ kiểm soát xe móc sau Trailer Stability Assist; Giảm va chạm từ sau Distance Pilot DISTRONIC;…
+    </p>
+    <h2><strong>Tiện nghi</strong></h2>
+    <div class="text-center">
+        <p>
+            Lấy cảm hứng từ những tiện nghi của E-Class và S-Class, Mercedes-AMG G 63 cũng như G-Class được trang bị rất nhiều công nghệ giải trí tuyệt vời. Bên cạnh hỗ trợ kết nối Apple CarPlay và Android Auto, phiên bản này còn có hệ thống harman/kardon LOGIC7® mang đến âm thanh sinh động, cổng kết nối USB, bộ thu tín hiệu HD Radio, nút KEYLESS-START giúp xe khởi động nhanh gọn,…
+
+        </p>
+        <div class="text-center">
+            <img src="image/amg/g63/15.png" class="img-fluid" alt="">
+
+        </div>
+    </div>
+    <p>
+        Là phiên bản hiệu suất cao của dòng SUV địa hình G-Class, Mercedes-AMG G 63 thu hút khách hàng bởi vẻ ngoài mạnh mẽ, trang bị hàng đầu cùng khả năng vận hành tuyệt vời trên nhiều điều kiện địa hình. Với những nâng cấp mới, phiên bản này sẽ là gợi ý hoàn hảo dành cho những khách hàng yêu thích sự hầm hố của dòng xe địa hình nhưng vẫn đậm chất sang trọng của Mercedes-Benz.
+    </p>
+    <div class="text-center">
+        <img src="image/amg/g63/17.png" class="img-fluid" alt="">
+
+        <section class="promotion">
+            <div class="promotion-content">
+            <h1>Khuyến mãi & ưu đãi</h1>
+            <p>Quà tặng dành cho khách hàng gửi yêu cầu báo giá online</p>
+            <p><em>* Quý khách vui lòng liên hệ hotline tư vấn, nhận thông tin khuyến mãi và ưu đãi</em></p>
+            </div>
+            <div class="hotline">
+            <a href="tel:0387857338">Hotline: 0887857338</a>
+            </div>
+      </section>
+    
+      <section class="info">
+        <div class="infomation">
+          <h2>Mercedes-Benz Bình Dương</h2>
+          <p>Showroom Mercedes-Benz Bình Dương.</p>
+          <p>Địa chỉ: Số 4 The Canary, Đại lộ Bình Dương, Bình Hòa, Thuận An, Bình Dương</p>
+        </div>
+    
+        <div class="support">
+          <h2>Hỗ trợ khách hàng</h2>
+          <a href="tel:0387857338">Hotline: 0387857338</a>
+          <p>Email: 23050076@student.bdu.edu.vn</p>
+        </div>
+    
+        <div class="follow">
+            <h2>Follow</h2>
+            <div class="social-icons">
+              <a href="mailto:23050076@student.bdu.edu.vn" class="icon"><img src="../../../image/email.png" alt="Email"></a>
+              <a href="tel:0387857338" class="icon"><img src="../../../image/phone.png" alt="Phone"></a>
+              <a href="https://www.youtube.com/@MercedesBenz" class="icon" target="_blank"><img src="../../../image/youtube.png" alt="YouTube"></a>
+          </div>  
+        </div>
+      </section>
+    
+    
+            <button id="scrollToTop" class="scroll-to-top" onclick="scrollToTop">
+                <i class="fa-solid fa-circle-arrow-up"></i>
+            </button>
+    
+            <script src="../../../js/roll.js"></script>
+            <script src="../../../js/ontop.js"></script>
+            <script src="../../../js/show.js"></script>
+   
+</body>
+</html>
